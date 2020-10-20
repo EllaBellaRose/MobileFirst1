@@ -7,3 +7,6 @@ body {
     width: 100%;
     min-width: 320px;
    }
+   .mainNav {
+    background-color: #8d965b;
+   }
