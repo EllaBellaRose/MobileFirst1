@@ -7,6 +7,26 @@ body {
     width: 100%;
     min-width: 320px;
    }
+   img {
+    width: 100%;
+   }
    .mainNav {
-    background-color: #8d965b;
+    background-color: palevioletred;
+   }
+   .mainNav ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+   }
+   .mainNav ul li {
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+   }
+   .mainNav ul li a {
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 0;
    }
