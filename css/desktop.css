@@ -24,3 +24,23 @@ header nav ul li h1{
 	left:120px;
 	font-size: 8em;
 }
+header,
+.mainContent,
+.row {
+ max-width: 1200px;
+ padding: 0 5px;
+ margin: auto;
+}
+.mainNav {
+	padding: 8px 0;
+	height: auto;
+   }
+   .mainNav .row ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+   }
+   .mainNav > div > ul > li {
+	border: none;
+	padding: 0;
+   }
