@@ -57,9 +57,6 @@ body {
     margin: 6px 0;
     background-color: #000;
    }
-   .burgerMenu {
-    display: none;
-   }
    .search > form {
     display: flex;
    }

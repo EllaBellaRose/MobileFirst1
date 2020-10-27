@@ -68,3 +68,6 @@ header,
    .straplineImg > img {
 	width: 100%;
    }
+   .burgerMenu {
+    display: none;
+   }
