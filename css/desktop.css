@@ -44,3 +44,27 @@ header,
 	border: none;
 	padding: 0;
    }
+   .mainContent {
+	display: flex;
+   }
+   main {
+	flex-basis: 70%;
+   }
+   .sidebar{
+   background-color: lightpink;
+   flex-basis: 30%;
+  }
+  .newsItem{
+	flex-basis: 33%;
+  }
+  .strapline {
+	display: flex;
+   }
+   .straplinetxt,
+   .straplineImg {
+	padding: 0 5px;
+	flex-basis: 50%;
+   }
+   .straplineImg > img {
+	width: 100%;
+   }
