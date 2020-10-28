@@ -56,6 +56,19 @@ body {
     height: 4px;
     margin: 6px 0;
     background-color: #000;
+    transition: 0.4s;
+   }
+   .animateBurger .bar2{
+       opacity: 0;
+   }
+   .animateBurger .bar1{
+       transform: rotate(-45deg) translate(-6px, 8px);
+   }
+   .animateBurger .bar2 {
+    opacity: 0;
+   }
+   .animateBurger .bar3 {
+    transform: rotate(45deg) translate(-6px, -8px);
    }
    .search > form {
     display: flex;
@@ -72,7 +85,7 @@ body {
    }
    button[type="submit"] {
     flex-basis: 20%;
-    background-color: lightskyblue;
+    background-color: rgb(233, 121, 209);
     border: none;
     color: #fff;
    }
